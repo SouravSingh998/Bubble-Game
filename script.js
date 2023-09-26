@@ -1,9 +1,9 @@
-var clutter ="";
 var timer=60;
 var score=0;
 var hitrn=0;
 function makeBubble()
 {
+  var clutter ="";
 for(var i=1;i<=168;i++)
   { 
     var random = Math.floor(Math.random()*10)
